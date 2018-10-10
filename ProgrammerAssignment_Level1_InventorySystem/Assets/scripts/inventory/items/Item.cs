@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
+// commit
 [CreateAssetMenu(fileName ="Item", menuName ="Inventory/Item")]
 [Serializable]
 public class Item : ScriptableObject {

@@ -9,7 +9,7 @@ using UnityEngine.Serialization;
 [Serializable]
 public class Inventory : MonoBehaviour 
 { 
-    
+    // 
     [SerializeField] List<Item> startingItems;
     [SerializeField] Transform itemsParent;
     [SerializeField] ItemSlot[] itemSlots;
